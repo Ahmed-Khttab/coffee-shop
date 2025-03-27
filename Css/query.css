@@ -1,0 +1,126 @@
+@media (min-width : 768px) {
+    .container{
+        max-width: 700px;
+    }
+
+    .hero{
+        height: 100vh;
+    }
+}
+
+@media (min-width : 996px) {
+    .container{
+        max-width: 860px;
+        
+    }
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero .container{
+        height: 100%;
+    }
+    .hero-section{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero-content{
+        gap: 30px;
+    }
+    .hero-title{
+        font-size: 42px;
+    }
+
+    .section-menu{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .menu-card{
+        width: 100%;
+    }
+
+    .contact-section{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
+
+
+
+@media (min-width : 1100px) {
+    .navbar-icon{
+        display: none;
+    }
+    
+    .navgation{
+        background-color: transparent;
+        visibility: visible;
+        flex-direction: row;
+        border:none;
+        top: 0px;
+        right: -25px;
+    }
+    .navbar-list{
+        flex-direction: row;
+        gap: 5px;
+    }
+    .sign{
+        flex-direction: row;
+        border-top: none;
+    }
+    .navbar-list-item{
+        padding: 6px 12px;
+    }
+
+
+    .container{
+        max-width: 1300px;
+        
+    }
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero .container{
+        height: 100%;
+    }
+    .hero-section{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero-content{
+        gap: 30px;
+    }
+    .hero-title{
+        font-size: 42px;
+    }
+    .about-section{
+        grid-template-columns: 2fr 3fr;
+    }
+    .about-content{
+        justify-content: space-between;
+    }
+    .section-menu{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu-card{
+        width: 100%;
+    }
+
+    .contact-section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
