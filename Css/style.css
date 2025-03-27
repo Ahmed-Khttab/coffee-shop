@@ -142,6 +142,7 @@ header.active{
     font-size: 38px;
     background-color: inherit;
     border-radius: 2px;
+    color: black;
 }
 
 
@@ -270,6 +271,7 @@ header.active{
 .btn-hero.contact{
     border: 1px solid #443627;
     transition: 400ms ease;
+    color: black;
 }
 
 .btn-hero.contact:hover{
@@ -284,6 +286,7 @@ header.active{
     background-color:  #d98c3c;
     border: 1px solid #d98c3c;
     transition: 400ms ease;
+    color: black;
 
 
 }
