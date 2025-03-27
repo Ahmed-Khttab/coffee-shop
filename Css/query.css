@@ -64,6 +64,7 @@
         border:none;
         top: 0px;
         right: -25px;
+        box-shadow: none;
     }
     .navbar-list{
         flex-direction: row;
