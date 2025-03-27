@@ -28,6 +28,9 @@ body{
 /*         Header             */
 /* ************************** */
 
+body{
+    color: black;
+}
 
 header{
     position: fixed;
